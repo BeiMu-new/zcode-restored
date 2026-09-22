@@ -9,3 +9,6 @@ third-party/upstream/** -text -whitespace
 third-party/native-search/licenses/** -text -whitespace
 third-party/runtime/*.txt -text -whitespace
 third-party/inventory.json linguist-generated=true
+
+# 复原层（restored/）：必须保持与官方正式版逐字节一致，禁止任何行尾/空白转换
+restored/** -text -whitespace
